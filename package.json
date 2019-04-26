@@ -10,11 +10,10 @@
     "start:android": "react-native run-android",
     "start:web": "node web/scripts/start.js",
     "build:web": "node web/scripts/build.js",
-    "eject:web": "node web/scripts/eject.js",
     "start:hbbtv": "node hbbtv/scripts/start.js",
     "build:hbbtv": "node hbbtv/scripts/build.js",
     "serve:hbbtv": "node ./hbbtv/scripts/server.js",
-    "tv": "concurrently \"yarn start:hbbtv\" \"yarn serve:hbbtv\"",
+    "proxy:hbbtv": "concurrently \"yarn start:hbbtv\" \"yarn serve:hbbtv\"",
     "test": "jest"
   },
   "dependencies": {
@@ -25,7 +24,6 @@
     "@babel/polyfill": "7.4.3",
     "@babel/preset-env": "7.4.3",
     "@babel/preset-react": "7.0.0",
-    "@babel/runtime": "7.4.2",
     "@svgr/webpack": "4.1.0",
     "@typescript-eslint/eslint-plugin": "1.6.0",
     "@typescript-eslint/parser": "1.6.0",
