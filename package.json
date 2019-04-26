@@ -8,8 +8,9 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "start:ios": "react-native run-ios",
     "start:android": "react-native run-android",
-    "start-web": "react-scripts start",
-    "build-web": "react-scripts build",
+    "start:web": "react-scripts start",
+    "build:web": "react-scripts build",
+    "eject:web": "react-scripts eject",
     "test": "jest"
   },
   "dependencies": {
