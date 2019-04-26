@@ -2,7 +2,8 @@
   <head>
     <meta
       http-equiv="Content-type"
-      content="application/vnd.hbbtv.xhtml+xml; charset=UTF-8"
+      content="application/vnd.hbbtv.xhtml+xml"
+      charset="UTF-8"
     />
     <title>Hbbtv Reason</title>
   </head>
@@ -21,9 +22,16 @@
     <div id="broadcast-container">
       <object id="broadcast" type="video/broadcast"></object>
     </div>
-    <div
-      style="position: fixed; top: 0; left: 0; z-index: 100000000; width: 1280px; height: 600px;"
-      id="root"
-    ></div>
+    <div id="root"></div>
+    <script type="text/javascript">
+      window.onload = function() {
+        //should be called show() function, if not the application will not be shown;
+        var app = document
+          .getElementById("oipfApplicationManager")
+          .getOwnerApplication(document);
+        app.show();
+      };
+    </script>
   </body>
 </html>
+<!-- style="position: fixed; top: 0; left: 0; z-index: 100000000; width: 1280px; height: 600px;" -->

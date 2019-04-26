@@ -130,6 +130,7 @@ module.exports = function(webpackEnv) {
     // These are the "entry points" to our application.
     // This means they will be the "root" imports that are included in JS bundle.
     entry: [
+      "@babel/polyfill",
       // Include an alternative client for WebpackDevServer. A client's job is to
       // connect to WebpackDevServer by a socket and get notified about changes.
       // When you save a file, the client will either apply hot updates (in case
@@ -338,7 +339,7 @@ module.exports = function(webpackEnv) {
             // The preset includes JSX, Flow, TypeScript, and some ESnext features.
             {
               test: /\.(js|mjs|jsx|ts|tsx)$/,
-              include: paths.appSrc,
+              include: [paths.appSrc, paths.appNodeModules],
               loader: require.resolve("babel-loader"),
               options: {
                 customize: require.resolve(
@@ -373,7 +374,7 @@ module.exports = function(webpackEnv) {
               loader: require.resolve("babel-loader"),
               options: {
                 babelrc: false,
-                configFile: false,
+                configFile: true,
                 compact: false,
                 presets: [
                   [
