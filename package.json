@@ -8,9 +8,9 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "start:ios": "react-native run-ios",
     "start:android": "react-native run-android",
-    "start:web": "node scripts/start.js",
-    "build:web": "node scripts/build.js",
-    "eject:web": "node scripts/eject.js",
+    "start:web": "node web/scripts/start.js",
+    "build:web": "node web/scripts/build.js",
+    "eject:web": "node web/scripts/eject.js",
     "test": "jest"
   },
   "dependencies": {
@@ -63,7 +63,7 @@
     "react-native-web": "^0.11.2",
     "react-router-dom": "^5.0.0",
     "react-router-native": "^5.0.0",
-    "reason-react": "^0.6.0",
+    "reason-react": "^0.7.0",
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
     "semver": "6.0.0",
