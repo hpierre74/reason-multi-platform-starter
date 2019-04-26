@@ -15,14 +15,6 @@ module.exports = {
     ],
     "@babel/plugin-syntax-dynamic-import",
     [
-      "babel-plugin-styled-components",
-      {
-        ssr: false,
-        displayName: true,
-        pure: true
-      }
-    ],
-    [
       "babel-plugin-named-asset-import",
       {
         loaderMap: {
