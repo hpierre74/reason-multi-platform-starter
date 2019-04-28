@@ -5,7 +5,6 @@
 //  * Converted from https://github.com/facebook/react-native/blob/d752446b23e0a12171ca0c01d20f5be625f40455/template/App.js
 //  */
 // open BsReactNative;
-
 // let instructions =
 //   switch (Platform.os()) {
 //   | IOS(_) => "Press Cmd+R to reload,\n" ++ "Cmd+D or shake for dev menu"
@@ -15,7 +14,6 @@
 //   | exception (Platform.UnknownPlatform(p)) when p == "web" => "Press Cmd+R to reload."
 //   | exception (Platform.UnknownPlatform(_p)) => ""
 //   };
-
 // let styles =
 //   Style.(
 //     StyleSheet.create({
@@ -42,7 +40,6 @@
 //         ]),
 //     })
 //   );
-
 // let app = () =>
 //   <View
 //     style={
@@ -54,4 +51,4 @@
 //     <Text style={styles##instructions}>
 //       instructions->ReasonReact.string
 //     </Text>
-//   </View>;
+/*   </View>*/
