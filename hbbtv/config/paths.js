@@ -81,7 +81,7 @@ module.exports = {
   appNodeModules: resolveApp("node_modules"),
   publicUrl: getPublicUrl(resolveApp("package.json")),
   servedPath: getServedPath(resolveApp("package.json")),
-  reasonSrc: resolveApp("src/App.bs")
+  reasonSrc: resolveApp("src/RNTesterApp.bs")
 };
 
 module.exports.moduleFileExtensions = moduleFileExtensions;

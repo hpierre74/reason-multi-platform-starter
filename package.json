@@ -33,7 +33,7 @@
     "babel-plugin-react-remove-properties": "0.2.5",
     "babel-plugin-named-asset-import": "^0.3.2",
     "babel-preset-react-app": "^8.0.0",
-    "bs-platform": "^4.0.0",
+    "bs-platform": "^5.0.1",
     "bs-react-native": "^0.11.0",
     "case-sensitive-paths-webpack-plugin": "2.2.0",
     "css-loader": "2.1.1",
