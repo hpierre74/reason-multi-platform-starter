@@ -88,7 +88,7 @@
   "devDependencies": {
     "@babel/runtime": "^7.4.3",
     "concurrently": "4.0.1",
-    "http-proxy": "^1.17.0",
+    "http-proxy": "^1.18.1",
     "metro-react-native-babel-preset": "^0.53.1",
     "react-test-renderer": "16.8.3"
   },
